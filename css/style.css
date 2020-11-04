@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	flex: 0 0 auto;
+	flex: 0 0 auto;
+	scroll-behavior:smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.flex{
+	    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 1313px;
+    margin: auto;
+
+}
+.col-4-1{
+    width: 25%;
+    padding: 25px;
+}
+.col-3{
+    width: 33.3%;
+    padding: 15px;
+}
+.heading{}
+.heading h1{
+    text-align: center;
+    font-size: 48px;
+    color: #413960;
+    margin-top: 64px;
+    margin-bottom: 49px;
+}
+h1 span{
+    color: #21B573;
+}
+p{
+    color: #9DA39D;
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+/* Banner Section */
+
+
+.banner-section{
+    background: #F0FFF0;
+}
+header{
+    padding: 22px 0px;
+}
+.logo{
+    width: 19%;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 81%;
+    padding: 15px;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #000000;
+    font-size: 130%;
+    padding: 10px 20px;
+    /* background: #21B573; */
+    border-radius: 24px;
+    display: block;
+    transition-duration: 0.4s;
+}
+nav ul li a:hover{
+    background: #21B573;
+    color: #fff;
+}
+
+.banner-content{
+    width: 50%;
+    padding-right: 55px;
+}
+.banner-content h2{
+    color: #FD511A;
+    letter-spacing: 1px;
+} 
+.banner-content h1{
+    font-size: 66px;
+    letter-spacing: 1px;
+    margin: 21px 0px;
+}
+
+.button{
+    color: #000000;
+    font-size: 130%;
+    padding: 10px 20px;
+    /* background: #21B573; */
+    border-radius: 24px;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background: #21B573;
+    color: #fff;
+}
+.banner-image{
+    width: 50%;
+    padding: 6px;
+}
+.banner-image img{}
+.pad-y{
+    padding-bottom: 43px;
+}
+
+
+/* Feature Section */
+
+.feature-section{
+    padding: 25px 0px;
+}
+.feature{
+    background: #F8FFFB;
+    text-align: center;
+    padding: 56px 9px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 17px 0px black; */
+    transition: 0.3s;
+}
+.feature img{
+    height: 98px;
+}
+.feature h3{
+    color: #413960;
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.feature p{
+    font-size: 20px;
+    color: #585859;
+}
+.feature:hover{
+    box-shadow: 0px 10px 30px 0px #ecebeb;
+    background: #fff;
+}
+
+
+/* Course Section */
+
+
+.course-section{}
+.course{
+    box-shadow: 0px 10px 30px 0px #ecebeb;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+}
+.course img{}
+.course h3{
+    color: #413960;
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.course span{
+    /* letter-spacing: 1px; */
+    color: #585859;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 18px;
+}
+.course ul{justify-content: space-between;}
+.course ul li{
+    color: #585859;
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.course ul li i{}
+
+
+/* Testimonial Section */
+
+
+.testimonial-section{}
+.testimonial-section h3{
+    text-align: center;
+    font-size: 48px;
+    color: #413960;
+    margin-top: 64px;
+    margin-bottom: 49px;
+}
+.client-image{
+    width: 13%;
+    padding: 20px;
+}
+.client-image img{
+    /* width: 25%; */
+}
+.client-content{
+    /* width: 72%; */
+    width: 57%;
+    padding: 20px;
+}
+.client-content p{
+    font-size: 22px;
+    color: #413960;
+}
+
+
+/* Footer Section */
+
+
+footer{
+    background: #282531;
+    padding-top: 30px;
+}
+footer p{
+    color: #949298;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{
+    color: #949298;
+    display: inline-block;
+    padding: 4px 0px;
+}
+footer ul li a:hover{}
+footer h4{
+    color: #fff;
+    font-size: 23px;
+}
+.Copyright{}
+.Copyright a{
+    color: #fff;
+}
+.Copyright a:hover{}
+
+
+
+
